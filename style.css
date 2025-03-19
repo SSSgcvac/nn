@@ -1,0 +1,115 @@
+body{
+  background: url(https://img05.rl0.ru/afisha/e1200x600i/daily.afisha.ru/uploads/images/e/83/e83040e9238945f78f2995ac2c8aacd7.jpg) ;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+.taim{
+  display: flex;
+  height: 30%;
+  width: 65%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+
+}
+.zagolovok{
+  font-family: Marck Script;
+  font-size: 3vw;
+  color: #f11010;
+
+}
+.tam{
+  color: #ff3b0a;
+
+}
+.tam:hover{
+  color: #ff0000;
+
+}
+.boxsneg{
+  height: 10vw;
+  width: 11vw;
+  position: absolute;
+  top: 39vw;
+  left: 80vw;
+  animation-name: snegir;
+  animation-duration: 6s;
+
+}
+.animsneg2{
+  display: flex;
+  top: 60vw;
+  left: 60vw;
+  height: 13vw;
+  width: 1vw;
+}
+.boxsneg2{
+  height: 15vw;
+  width: 11vw;
+  position: absolute;
+  top: 20vw;
+  left: 40vw;
+}
+.animsneg2:hover .boxsneg2{
+  transform:translate( 0px, -45px ) ;
+  transition: all 0.4s linear;
+}
+@keyframes snegir{
+  0%{
+    transform: translate(20px,0px);
+}
+25%{
+    transform: translate(0px,-30px);
+}
+50%{
+  transform: translate(-30px,0px);
+}
+100%{
+  transform: translate(20px,0px);
+}
+}
+
+.box{
+  display: grid;
+  grid-template-columns: repeat(4,20vw);
+  grid-template-rows: repeat(1,20vw);
+  overflow: hidden;
+  float: none;
+  width: 20vw;
+ 
+}
+.boxsneg3{
+  height: 15vw;
+  width: 12vw;
+  position: absolute;
+  top: 40.3vw;
+  left: 10vw;
+}
+.but{
+  height: 10vw;
+  width: 3vw;
+}
+
+.gg{
+  width: 100%;
+}
+.box1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 27vw;
+  left:37vw ;
+}
+.boxvetka{
+  height: 10vw;
+  width: 11vw;
+  position: absolute;
+  top: 9vw;
+  left:  88.45vw;
+}
+.boxsneg3:hover{
+  rotate: 3deg;
+  transition: all 0.1s linear;
+}
